@@ -167,20 +167,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 Builds the app for production to the `build` folder.\
 
-### Pull Requests
 
-Create a branch with proper name example 'feat/your-cool-feature', create the pull request and add authors for reviews. Please include description with details.
-
-
-## Sponsors
-
-### Buy Me A Coffee:
-
-https://www.buymeacoffee.com/daguozi
-
-## Credits
-
-Thanks [@rendi12345678](https://github.com/rendi12345678) for his continuous contributions and making the feature of data visualization for the typing stats!
 
 
 
