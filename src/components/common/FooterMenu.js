@@ -214,7 +214,7 @@ const FooterMenu = ({
                   </Link>
                   <Link
                     margin="inherit"
-                    href="https://github.com/gamer-ai/eletype-frontend/"
+                    href="https://github.com/Tanmaysriv/Ele-Types"
                   >
                     {GITHUB_REPO_LINK}
                   </Link>
@@ -223,46 +223,12 @@ const FooterMenu = ({
               placement="top-start"
             >
               <IconButton
-                href="https://github.com/gamer-ai/eletype-frontend/"
+                href="https://github.com/Tanmaysriv/Ele-Types"
                 color="inherit"
               >
                 <GitHubIcon></GitHubIcon>
               </IconButton>
             </Tooltip>
-            <Tooltip
-              title={
-                <span style={{ whiteSpace: "pre-line" }}>
-                  <iframe
-                    title="discord-widget"
-                    src="https://discord.com/widget?id=993567075589181621&theme=dark"
-                    width="100%"
-                    height="300"
-                    allowtransparency="true"
-                    frameborder="0"
-                    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
-                  ></iframe>
-                </span>
-              }
-              placement="top-start"
-            >
-              <IconButton color="inherit">
-                <SvgIcon>
-                  <DiscordIcon></DiscordIcon>
-                </SvgIcon>
-              </IconButton>
-            </Tooltip>
-          </Box>
-        )}
-        {isBottomLogoEnabled && (
-          <Box display="block" flexDirection="row" className="bottom-info">
-            <IconButton
-              href="https://github.com/gamer-ai/eletype-frontend/"
-              color="inherit"
-            >
-              <span>
-                Ele Types <KeyboardAltIcon fontSize="small" />
-              </span>
-            </IconButton>
           </Box>
         )}
       </Grid>
